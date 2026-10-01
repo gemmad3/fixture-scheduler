@@ -35,7 +35,7 @@ exactly once:
 Round 1: Alpha vs Delta
 Round 1: Bravo vs Charlie
 Round 2: Charlie vs Alpha
-Round 2: Delta vs Bravo
+Round 2: Bravo vs Delta
 Round 3: Alpha vs Bravo
 Round 3: Charlie vs Delta
 ```
@@ -53,6 +53,12 @@ leg with sides reversed:
 
 ```python
 rounds = round_robin(teams, double_round=True)
+```
+
+## Tests
+
+```
+python -m unittest discover tests
 ```
 
 ## Status
